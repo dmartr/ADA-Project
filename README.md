@@ -11,15 +11,14 @@ All this data will be properly organized to be queried and used depending on wha
 
 ##Feasibility and Risks
 ##Deliverables
-During the project, 3 IPython notebooks are done. These notebooks are:
-* Data Minig notebook: Where the data of the LoL's Api will be extracted and saved using DataFrames, Requests and others libraries. Besides, the data will be cleaned to chose the most revelant or the necessary atributes for future use.
+During the project, 3 IPython notebooks will be done. Those notebooks are:
+* Data Mining notebook: Where the data of the LoL's Api will be extracted and saved using DataFrames, Requests and others libraries. Besides, the data will be cleaned to chose the most revelant or the necessary attributes for future use.
 
-* Data Analysis notebook: Where the collected data will be analyzed for select some features, which will be used to make the Machine Learning notebook.
+* Data Analysis notebook: Where the collected data will be analyzed to select some features, which will be used to make the Machine Learning notebook.
 
-* Machine Learning notebook: Where depending on the dataset’dimensionality of the. Make an assessment that is best suited classifier. During this assessment you may be used to observe several classifiers which is the best that is better suited to our data.
+* Machine Learning notebook: will be done taking into account the datasets dimensions. A list of pros and cons for each classifier will be done in order to make an assesment of which classifier fits better our data model. 
 
-
-* Result Visualization notebook: From the data extracted in the previous notebook, display it using graphs, and if possible, the use of interactive graphics
+* Result Visualization notebook: From the data extracted in the previous notebook, it will be displayed using graphs and, if possible, interactive graphics.
 
 ##Timeplan
 
