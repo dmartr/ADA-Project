@@ -1,6 +1,7 @@
 # ADA-Project
 
 ##Abstract
+This project will use data provided by Riots Games https://developer.riotgames.com/ about League of Legends match history. The objectives are to develop an understanding of LoL player skill evolution over time in terms of their ability to use advanced game features (e.g., runes, masteries, etc.) as well as an understanding of the causes for dropping or continuing to play the game in the long term.
 ##Data description
 ##Feasibility and Risks
 ##Deliverables
