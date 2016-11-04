@@ -1,7 +1,14 @@
 # Applied Data Analysis Project: The evolution of a League of Legends player
 
 ##Abstract
-This project will use data provided by Riots Games https://developer.riotgames.com/ about League of Legends players match history. The objectives are to develop an understanding of LoL player skill evolution over time in terms of their ability to use advanced game features (e.g., runes, masteries, etc.) as well as an understanding of the causes for dropping or continuing to play the game in the long term.
+
+League of Legend (LoL) is a multiplayer online is a multiplayer online battle arena video game developed and published by Riot Games for Microsoft Windows and OS X. In League of Legends, players assume the role of an unseen "summoner" that controls a "champion" with unique abilities and battle against a team of other players or computer-controlled champions. The goal is usually to destroy the opposing team's "nexus", a structure which lies at the heart of a base protected by defensive structures. Each League of Legends match is discrete, with all champions starting off fairly weak but increasing in strength by accumulating items and experience over the course of the game. 
+
+The cultural relevance in the western and oriental culture is remarkable as in September 2016 the company estimated that there are 100 million monthly active players worldwide. With an player database of the 11,94% of the korean population or the 5,88% in China. 
+ 
+This project will use data provided by Riots Games https://developer.riotgames.com/ about League of Legends players match history in the EUW (Western Europe) server. The objectives are to develop an understanding of LoL player skill evolution over time in terms of their ability to use advanced game features (e.g., runes, masteries, etc.) as well as an understanding of the causes for dropping or continuing to play the game in the long term.
+
+
 ##Data description
 Our starting point will be the IDs of a summoner of each Tier (Bronze, Silver, Gold, Platinum, Master and Challenger). For each one, we'll retrieve the League they're located in and we'll retrieve the IDs of every other summoner in those leagues. Once this is done, we'll have a pool of LoL players, balanced between all the possible Tiers. 
 
