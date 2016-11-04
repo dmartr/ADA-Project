@@ -12,7 +12,10 @@ The cultural relevance in the western and oriental culture is remarkable as in S
  
 This project will use data provided by Riots Games https://developer.riotgames.com/ about League of Legends players match history, only in the EUW (Western Europe) server. The objectives are to develop an understanding of LoL player skill evolution over time in terms of their ability to use advanced game features (e.g., runes, masteries, etc.) as well as an understanding of the causes for dropping or continuing to play the game in the long term.
 
-The number of variables in a League of Legends match is huge and can be cuantitative (champions picked, item build, number of vision wards placed, gold earner per players by kills, assists or objectives...) or qualitative (team communication, teamwork, luck, connection health, ...). We will only take into account the most relevant quatitative stadistics. 
+The number of variables in a League of Legends match is huge and can be cuantitative (champions picked and lanes matchups, item build, number of vision wards placed, gold earner per players by kills, assists or objectives...) or qualitative (team communication, teamwork, luck, connection health,...). We will only take into account the most relevant quatitative stadistics. 
+
+In the first phase of the project we will get the data using the Riot API and peform all the Data Wrangling process necesary to then analyze the data. The Data retrieved will correspond to the current (2015-2016) and past season (2014-2015) of competitive matches. In the second phase we will analyze the data to choose the most suitable stadistics to determine a player permormance. Then, for this stadistics, we will choose the Machine Learning aproach that fits the data and try to predict
+the results. In the last phase, we will try to visualize the data and drive some conclusions. 
 
 ## Data description
 Our starting point will be the IDs of a summoner of each Tier (Bronze, Silver, Gold, Platinum, Master and Challenger). For each one, we'll retrieve the League they're located in and we'll retrieve the IDs of every other summoner in those leagues. Once this is done, we'll have a pool of LoL players, balanced between all the possible Tiers. 
@@ -22,6 +25,8 @@ For each Summoner we'll get his Name, Tier and Division as basic information and
 All this data will be properly organized to be queried and used depending on what we need to get and analyze in different stages of the project.
 
 ## Feasibility and Risks
+
+
 ## Deliverables
 During the project, 3 IPython notebooks will be done. Those notebooks are:
 * Data Mining notebook: Where the data of the LoL's Api will be extracted and saved using DataFrames, Requests and others libraries. Besides, the data will be cleaned to chose the most revelant or the necessary attributes for future use.
