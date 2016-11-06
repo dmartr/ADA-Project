@@ -26,6 +26,9 @@ All this data will be properly organized to be queried and used depending on wha
 
 ## Feasibility and Risks
 
+Given the huge amount of data available and all the variables that decide the outcome of a match, It could be difficult to select the features that infuence the most the predicition. A not accurate or wrong prediction is possible. 
+
+Limitating the scope of the project can result in an insufient amount of different players data but taking a lot of players can result in a Big Data problem. 
 
 ## Deliverables
 During the project, 3 IPython notebooks will be done. Those notebooks are:
