@@ -39,14 +39,3 @@ During the project, 3 IPython notebooks will be done. Those notebooks are:
 * Machine Learning notebook: will be done taking into account the datasets dimensions. A list of pros and cons for each classifier will be done in order to make an assesment of which classifier fits better our data model. 
 
 * Result Visualization notebook: From the data extracted in the previous notebook, it will be displayed using graphs and, if possible, interactive graphics.
-
-## Timeplan
-
-|                           | 31 Oct - 6 Nov | 7 - 13 Nov | 14 - 20 Nov | 21 - 27 Nov | 28 Nov - 4 Dec | 5 - 11 Dec | 12 - 18 Dec | 19 - 25 Dec | 26 Dec - 1 Jan | 2 - 8 Jan | 9 - 15 Jan |
-|---------------------------|----------------|------------|-------------|-------------|----------------|------------|-------------|-------------|----------------|-----------|------------|
-| Propuse                   |  in progress              |            |             |             |                |            |             |             |                |           |            |
-| Data Extraction           |                |in progress            |             |             |                |            |             |             |                |           |            |
-| Data Inspection & Roaling |                |            |in progress             |             |                |            |             |             |                |           |            |
-| Data Analysis             |                |            |             |  in progress           | in progress               |            |             |             |                |           |            |
-| Machine Learnig           |                |            |             |             |                |   in progress         |            in progress |             |    in progress            | in progress          |            |
-| Result Visualization      |                |            |             |             |                |            |             |             |                |           |  in progress          |
